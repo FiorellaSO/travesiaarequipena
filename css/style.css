@@ -1,0 +1,621 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 23px;
+}
+
+.logo {
+  height: 80px;
+}
+
+.nav {
+  width: 50%;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #303030;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: #303030;
+}
+.nav ul li:hover {
+  color: #f25c27;
+}
+
+.imagenportada {
+  height: 570px;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.descubrearequipa {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.titulodescubre {
+  width: 300px;
+}
+
+.textodescubre {
+  width: 25%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #303030;
+  text-align: center;
+}
+
+.lugares-turisticos {
+  background-image: url(../Imagenes/turistico.png);
+  background-size: 284px 434px;
+  background-repeat: no-repeat;
+  height: 434px;
+  width: 284px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  text-align: center;
+}
+.lugares-turisticos a {
+  color: #f25c27;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.lugares-turisticos a:hover {
+  color: white;
+}
+.platos-tipicos {
+  background-image: url(../Imagenes/plato.png);
+  background-size: 284px 434px;
+  background-repeat: no-repeat;
+  height: 434px;
+  width: 284px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  text-align: center;
+}
+
+.platos-tipicos a {
+  color: #f25c27;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.platos-tipicos a:hover {
+  color: white;
+}
+
+.costumbres {
+  background-image: url(../Imagenes/costumbres.png);
+  background-size: 284px 434px;
+  background-repeat: no-repeat;
+  height: 434px;
+  width: 284px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  text-align: center;
+}
+
+.costumbres a {
+  color: #f25c27;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.costumbres a h1 {
+  opacity: 1;
+}
+.costumbres a:hover {
+  color: white;
+}
+
+.separador {
+  width: 800px;
+}
+
+.viajaseguro {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4%;
+}
+.div-viajaseguro {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.textoviajaseguro {
+  text-align: center;
+  width: 40%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #303030;
+  margin-bottom: 4%;
+}
+.viajaseguro div section {
+  background-color: #5c5c5c;
+  width: 30%;
+  margin: 10px;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 450px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.precios {
+  font-size: 100px;
+  margin: 0;
+}
+
+.botonesviajaseguro {
+  color: white;
+  border: none;
+  background-color: #f25c27;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+  width: 185px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.botonesviajaseguro:hover {
+  cursor: pointer;
+}
+
+.viajarnuncafuetanfacil {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.viajarnuncafuetanfacilimg {
+  width: 60%;
+}
+
+.viajarnuncafuetanfacil div a section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  align-items: center;
+  text-align: center;
+}
+.viajarnuncafuetanfacil div a {
+  text-decoration: none;
+  color: black;
+  width: 30%;
+  padding: 5px;
+}
+.viajarnuncafuetanfacil div {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+.booking {
+  width: 165px;
+}
+.viajarnuncafuetanfacil div a section p {
+  padding: 10px;
+}
+#ahorraconbooxing p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}
+#ahorraconbooxing {
+  height: 100%;
+}
+.ubicacion {
+  width: 75px;
+  margin-bottom: 10px;
+  margin-top: 34px;
+}
+#ubicacion {
+  background-color: #03a696;
+}
+#ubicacion h1 {
+  color: white;
+}
+#ubicacion p {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}
+.excursiones {
+  width: 115px;
+  margin-bottom: 10px;
+  margin-top: 34px;
+}
+#mejoresexcursiones {
+  height: 100%;
+}
+#mejoresexcursiones p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}
+
+.titulohistoria {
+  width: 70%;
+}
+.historia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+}
+.historia div section {
+  width: 40%;
+}
+.historia div {
+  display: flex;
+  justify-content: center;
+}
+.historia div section p {
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+}
+.historia div section img {
+  height: 400px;
+  width: 400px;
+  padding: 10px;
+}
+.botonhistoria {
+  color: white;
+  border: none;
+  background-color: #f25c27;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+  width: 130px;
+  border-radius: 8px;
+  margin-top: 4%;
+}
+
+.mapa {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.mapaimg {
+  width: 18%;
+  margin-top: 3%;
+}
+.iframemapa {
+  border: 0;
+  height: 450px;
+  width: 100%;
+}
+.lima-arequipa {
+  height: 70px;
+  width: 800px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.footer {
+  background-color: #025158;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer div {
+  width: 30.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgs {
+  height: 28px;
+  width: 119px;
+  margin-top: 10px;
+}
+
+.footer div p {
+  margin-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+}
+
+.footer1 {
+  width: 180px;
+  margin-top: 8%;
+}
+.footer2 {
+  width: 120px;
+  margin-top: 8%;
+}
+.footer3 {
+  width: 140px;
+}
+.footer div h1 {
+  font-size: 22px;
+}
+.redessociales {
+  display: flex;
+  flex-direction: column;
+}
+.redessociales img {
+  margin-bottom: 16px;
+}
+.travesia-img {
+  height: 23px;
+  width: 180px;
+}
+
+/*experiencias*/
+.portada4 {
+  width: 100%;
+}
+
+.experienciastitulo {
+  font-weight: bold;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.festividadescontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.festividadescontainer div img {
+  height: 460px;
+  width: 460px;
+}
+
+.festividadescontainer div {
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.festividadescontainer div p {
+  width: 60%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.deportesextremostitulo {
+  width: 60%;
+}
+
+.rafting {
+  background-image: url("../Imagenes/rafting.png");
+  background-repeat: no-repeat;
+  background-size: 283px 240px;
+}
+
+.puenting {
+  background-image: url("../Imagenes/puenting.png");
+  background-repeat: no-repeat;
+  background-size: 283px 240px;
+}
+
+.parapente {
+  background-image: url("../Imagenes/parapente.png");
+  background-repeat: no-repeat;
+  background-size: 283px 240px;
+}
+
+.downhill {
+  background-image: url("../Imagenes/downhilll.png");
+  background-repeat: no-repeat;
+  background-size: 283px 240px;
+}
+
+.deportessection div h1 {
+  height: 240px;
+  width: 283px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.deportessection div p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.deportes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deportessection {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.deportessection div {
+  width: 355px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/**/
+.platostipicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.platostipicos-titulo {
+  width: 60%;
+}
+
+.platostipicossection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.platostipicossection div {
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+}
+.platostipicossection div img {
+  height: 220px;
+  width: 220px;
+}
+
+/*nosotros*/
+.nosotrostitle {
+  font-size: 38px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #5c5c5c;
+}
+.imagenportada2 {
+  width: 100%;
+}
+
+.costumbre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulocostumbres {
+  width: 60%;
+}
+
+.costumbre div {
+  display: flex;
+  justify-content: center;
+  width: 77%;
+}
+.costumbre div div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 55%;
+  padding: 25px;
+}
+.costumbre div div h1 {
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: xx-large;
+  color: #5c5c5c;
+}
+.costumbre div div p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-stretch: wider;
+}
+
+.bg-red {
+  background-color: rgb(236, 100, 100);
+}
+.costumbre div img {
+  height: 350px;
+  width: 400px;
+}
+.bg-light-blue {
+  background-color: rgb(240, 217, 154);
+}
+
+.seccioncomunidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-stretch: ultra-expanded;
+  font-size: 18px;
+}
+.all {
+  display: flex;
+  width: 100%;
+}
+.all img {
+  width: 25%;
+}
+
+.seccionmision {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.seccionmision div {
+  width: 38%;
+  text-align: center;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-stretch: ultra-condensed;
+}
