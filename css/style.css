@@ -695,19 +695,19 @@
   margin-bottom: 20px;
 }
 
-.seccionrutas{
+.seccionrutas {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
 }
 
-.seccionrutas div{
+.seccionrutas div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.seccionrutas div div{
+.seccionrutas div div {
   height: 400px;
   width: 400px;
   background-repeat: no-repeat;
@@ -716,7 +716,7 @@
   flex-direction: column;
   justify-content: flex-end;
   margin: 10px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .seccionrutas div div p {
@@ -725,7 +725,7 @@
   background-color: #00000080;
   color: white;
   font-size: 25px;
-  font-weight: bold; 
+  font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
@@ -756,8 +756,195 @@
   background-image: url("../images/vallecanon.png");
 }
 
-.rutasdescatadastitle{
+.rutasdescatadastitle {
   width: 55%;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/*blog*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogtitulo {
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #3d3b3bc2;
+}
+
+.portada5 {
+  width: 100%;
+  height: 700px;
+  margin-bottom: 40px;
+}
+
+.notas {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notas h1 {
+  font-size: 33px;
+  padding: 10px;
+  color: teal;
+}
+
+.notas p {
+  text-align: start;
+  width: 80%;
+  padding: 10px;
+  font-weight: 400;
+  color: #303030da;
+}
+
+.notas img {
+  height: 450px;
+  width: 750px;
+}
+
+.datos-blog {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 35px;
+  color: #2b2a2ac9;
+}
+
+.datos-blog li svg {
+  width: 18px;
+}
+
+.manantialmamacocha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.manantialmamacocha h1 {
+  font-size: 27px;
+  color: #03a696;
+}
+
+.manantialmamacocha p {
+  font-weight: 400;
+  color: #303030da;
+}
+
+.manantialmamacocha img {
+  height: 450px;
+  width: 750px;
+}
+
+.cotahuasi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.cotahuasi h1 {
+  font-size: 27px;
+  color: tomato;
+}
+
+.cotahuasi p {
+  font-weight: 400;
+  color: #303030da;
+  width: 70%;
+}
+
+.cotahuasi div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cotahuasi div img {
+  height: 450px;
+  width: 750px;
+}
+.cotahuasi div h3 {
+  font-size: 23px;
+  color: #025158;
+}
+.cotahuasi div p {
+  font-weight: 400;
+  color: #303030da;
+  width: 25%;
+}
+
+.castilloforga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.castilloforga h1 {
+  font-size: 26px;
+}
+
+.castilloforga p {
+  font-weight: 400;
+  color: #303030da;
+}
+
+.castilloforga div {
+  display: flex;
+}
+
+.castilloforga div p {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.castilloforga div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.huasicac {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.huasicac img {
+  height: 450px;
+  width: 750px;
+}
+
+.huasicac p {
+  font-weight: 500;
+  color: #303030da; 
+}
+
+.huasicac div{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+} 
+
+.huasicac div img { 
+  height: 255px;
+  width: 355px;
 }
