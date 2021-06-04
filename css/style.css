@@ -9,7 +9,7 @@ body {
 main {
   width: 1200px;
 }
-.header {
+.mr-header {
   display: flex;
   justify-content: space-around;
   padding-top: 23px;
@@ -17,15 +17,15 @@ main {
   width: 100%;
 }
 
-.logo {
+.mr-logo {
   height: 80px;
 }
 
-.nav {
+.mr-nav {
   width: 50%;
 }
 
-.nav ul {
+.mr-nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -37,31 +37,31 @@ main {
   color: #303030;
 }
 
-.nav ul a {
+.mr-nav ul a {
   text-decoration: none;
   color: #303030;
 }
-.nav ul li:hover {
+.mr-nav ul li:hover {
   color: #f25c27;
 }
 
-.imagenportada {
+.mr-imagenportada {
   height: 570px;
   width: 100%;
   margin-bottom: 2%;
 }
 
-.descubrearequipa {
+.mr-descubrearequipa {
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.titulodescubre {
+.mr-titulodescubre {
   width: 300px;
 }
 
-.textodescubre {
+.mr-textodescubre {
   width: 25%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -71,8 +71,8 @@ main {
   text-align: center;
 }
 
-.lugares-turisticos {
-  background-image: url(../images/turistico.png);
+.mr-lugares-turisticos {
+  background-image: url(./images/turistico.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
   height: 434px;
@@ -83,16 +83,16 @@ main {
   font-size: 26px;
   text-align: center;
 }
-.lugares-turisticos a {
+.mr-lugares-turisticos a {
   color: #f25c27;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.lugares-turisticos a:hover {
+.mr-lugares-turisticos a:hover {
   color: white;
 }
-.platos-tipicos {
-  background-image: url(../images/plato.png);
+.mr-platos-tipicos {
+  background-image: url(./images/plato.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
   height: 434px;
@@ -104,17 +104,17 @@ main {
   text-align: center;
 }
 
-.platos-tipicos a {
+.mr-platos-tipicos a {
   color: #f25c27;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.platos-tipicos a:hover {
+.mr-platos-tipicos a:hover {
   color: white;
 }
 
-.costumbres {
-  background-image: url(../images/costumbres.png);
+.mr-costumbres {
+  background-image: url(./images/costumbres.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
   height: 434px;
@@ -126,23 +126,23 @@ main {
   text-align: center;
 }
 
-.costumbres a {
+.mr-costumbres a {
   color: #f25c27;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.costumbres a h1 {
+.mr-costumbres a h1 {
   opacity: 1;
 }
-.costumbres a:hover {
+.mr-costumbres a:hover {
   color: white;
 }
 
-.separador {
+.mr-separador {
   width: 800px;
 }
 
-.viajaseguro {
+.mr-viajaseguro {
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -151,12 +151,12 @@ main {
   width: 100%;
   margin-top: 4%;
 }
-.div-viajaseguro {
+.mr-div-viajaseguro {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.textoviajaseguro {
+.mr-textoviajaseguro {
   text-align: center;
   width: 40%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -164,7 +164,7 @@ main {
   color: #303030;
   margin-bottom: 4%;
 }
-.viajaseguro div section {
+.mr-viajaseguro div section {
   background-color: #5c5c5c;
   width: 30%;
   margin: 10px;
@@ -181,12 +181,12 @@ main {
   font-size: 20px;
   margin-bottom: 50px;
 }
-.precios {
+.mr-precios {
   font-size: 100px;
   margin: 0;
 }
 
-.botonesviajaseguro {
+.mr-botonesviajaseguro {
   color: white;
   border: none;
   background-color: #f25c27;
@@ -200,11 +200,11 @@ main {
   text-decoration: none;
 }
 
-.botonesviajaseguro:hover {
+.mr-botonesviajaseguro:hover {
   cursor: pointer;
 }
 
-.viajarnuncafuetanfacil {
+.mr-viajarnuncafuetanfacil {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -213,11 +213,11 @@ main {
   margin-bottom: 5%;
 }
 
-.viajarnuncafuetanfacilimg {
+.mr-viajarnuncafuetanfacilimg {
   width: 60%;
 }
 
-.viajarnuncafuetanfacil div a section {
+.mr-viajarnuncafuetanfacil div a section {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -225,21 +225,21 @@ main {
   align-items: center;
   text-align: center;
 }
-.viajarnuncafuetanfacil div a {
+.mr-viajarnuncafuetanfacil div a {
   text-decoration: none;
   color: black;
   width: 30%;
   padding: 5px;
 }
-.viajarnuncafuetanfacil div {
+.mr-viajarnuncafuetanfacil div {
   display: flex;
   justify-content: space-around;
   margin: 30px;
 }
-.booking {
+.mr-booking {
   width: 165px;
 }
-.viajarnuncafuetanfacil div a section p {
+.mr-viajarnuncafuetanfacil div a section p {
   padding: 10px;
 }
 #ahorraconbooxing p {
@@ -250,10 +250,10 @@ main {
 #ahorraconbooxing {
   height: 100%;
 }
-.viajanuncafuetanfacilimgs {
+.mr-viajanuncafuetanfacilimgs {
   min-height: 300px;
 }
-.ubicacion {
+.mr-ubicacion {
   width: 75px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -271,7 +271,7 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
 }
-.excursiones {
+.mr-excursiones {
   width: 115px;
   margin-bottom: 10px;
   margin-top: 34px;
@@ -285,35 +285,35 @@ main {
   font-size: 15px;
 }
 
-.titulohistoria {
+.mr-titulohistoria {
   width: 70%;
 }
-.historia {
+.mr-historia {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 4%;
 }
-.historia div section {
+.mr-historia div section {
   width: 40%;
 }
-.historia div {
+.mr-historia div {
   display: flex;
   justify-content: center;
 }
-.historia div section p {
+.mr-historia div section p {
   padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 17px;
 }
-.historia div section img {
+.mr-historia div section img {
   height: 400px;
   width: 400px;
   padding: 10px;
 }
-.botonhistoria {
+.mr-botonhistoria {
   color: white;
   border: none;
   background-color: #f25c27;
@@ -327,29 +327,29 @@ main {
   margin-top: 4%;
 }
 
-.mapa {
+.mr-mapa {
   display: flex;
   flex-direction: column;
 
   align-items: center;
 }
 
-.mapaimg {
+.mr-mapaimg {
   width: 18%;
   margin-top: 3%;
 }
-.iframemapa {
+.mr-iframemapa {
   border: 0;
   height: 450px;
   width: 100%;
 }
-.lima-arequipa {
+.mr-lima-arequipa {
   height: 70px;
   width: 800px;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.footer {
+.mr-footer {
   width: 100%;
   background-color: #025158;
   display: flex;
@@ -362,54 +362,54 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.footer div {
+.mr-footer div {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.imgs {
+.mr-imgs {
   height: 28px;
   width: 119px;
   margin-top: 10px;
 }
 
-.footer div p {
+.mr-footer div p {
   margin-top: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
 }
 
-.footer1 {
+.mr-footer1 {
   width: 180px;
   margin-top: 8%;
 }
-.footer2 {
+.mr-footer2 {
   width: 120px;
   margin-top: 8%;
 }
-.footer3 {
+.mr-footer3 {
   width: 140px;
 }
-.footer div h1 {
+.mr-footer div h1 {
   font-size: 22px;
 }
-.redessociales {
+.mr-redessociales {
   display: flex;
   flex-direction: column;
 }
 
-.redessociales i {
+.mr-redessociales i {
   font-size: 22px;
   display: flex;
   padding: 4px;
   margin-top: 5px;
 }
-.redessociales img {
+.mr-redessociales img {
   margin-bottom: 16px;
 }
-.travesia-img {
+.mr-travesia-img {
   height: 23px;
   width: 180px;
   margin-top: 5px;
@@ -417,7 +417,7 @@ main {
 }
 
 /*nosotros*/
-.nosotrostitle {
+.mr-nosotrostitle {
   font-size: 38px;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -427,12 +427,12 @@ main {
   margin-bottom: 50px;
   color: #5c5c5c;
 }
-.imagenportada2 {
+.mr-imagenportada2 {
   width: 100%;
   margin-bottom: 50px;
 }
 
-.costumbre {
+.mr-costumbre {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -441,47 +441,47 @@ main {
   margin-top: 40px;
 }
 
-.titulocostumbres {
+.mr-titulocostumbres {
   width: 60%;
 }
 
-.costumbre div {
+.mr-costumbre div {
   display: flex;
   justify-content: center;
   width: 77%;
 }
-.costumbre div div {
+.mr-costumbre div div {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 55%;
   padding: 25px;
 }
-.costumbre div div h1 {
+.mr-costumbre div div h1 {
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: xx-large;
   color: #5c5c5c;
 }
-.costumbre div div p {
+.mr-costumbre div div p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-stretch: wider;
 }
 
-.bg-red {
+.mr-bg-red {
   background-color: rgb(236, 100, 100);
 }
-.costumbre div img {
-  height: 350px;
+.mr-costumbre div img {
+  height: 390px;
   width: 400px;
 }
-.bg-light-blue {
+.mr-bg-light-blue {
   background-color: rgb(240, 217, 154);
 }
 
-.seccioncomunidad {
+.mr-seccioncomunidad {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -494,29 +494,29 @@ main {
   margin-bottom: 40px;
 }
 
-.titulocomunidad {
+.mr-titulocomunidad {
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.all {
+.mr-all {
   display: flex;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.all img {
+.mr-all img {
   width: 25%;
 }
 
-.seccionmision {
+.mr-seccionmision {
   display: flex;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.seccionmision div {
+.mr-seccionmision div {
   width: 38%;
   text-align: center;
   padding: 10px;
@@ -526,36 +526,36 @@ main {
 }
 
 /*experiencias*/
-.portada4 {
+.mr-portada4 {
   width: 100%;
 }
 
-.mejoresfestividades {
+.mr-mejoresfestividades {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.experienciastitulo {
+.mr-experienciastitulo {
   font-weight: bold;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.festividadescontainer {
+.mr-festividadescontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.festividadescontainer div img {
+.mr-festividadescontainer div img {
   height: 460px;
   width: 460px;
 }
 
-.festividadescontainer div {
+.mr-festividadescontainer div {
   width: 40%;
   padding: 20px;
   text-align: center;
@@ -565,41 +565,41 @@ main {
   align-items: center;
 }
 
-.festividadescontainer div p {
+.mr-festividadescontainer div p {
   width: 60%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.deportesextremostitulo {
+.mr-deportesextremostitulo {
   width: 60%;
 }
 
-.rafting {
+.mr-rafting {
   background-image: url("../images/rafting.png");
   background-repeat: no-repeat;
   background-size: 283px 240px;
 }
 
-.puenting {
+.mr-puenting {
   background-image: url("../images/puenting.png");
   background-repeat: no-repeat;
   background-size: 283px 240px;
 }
 
-.parapente {
+.mr-parapente {
   background-image: url("../images/parapente.png");
   background-repeat: no-repeat;
   background-size: 283px 240px;
 }
 
-.downhill {
+.mr-downhill {
   background-image: url("../images/downhilll.png");
   background-repeat: no-repeat;
   background-size: 283px 240px;
 }
 
-.deportessection div h1 {
+.mr-deportessection div h1 {
   height: 240px;
   width: 283px;
   display: flex;
@@ -612,34 +612,34 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.deportessection div p {
+.mr-deportessection div p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.bg-1 {
+.mr-bg-1 {
   background-color: #83bdae;
 }
 
-.bg-2 {
+.mr-bg-2 {
   background-color: #e7de8b;
 }
 
-.deportes {
+.mr-deportes {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.deportessection {
+.mr-deportessection {
   width: 75%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.deportessection div {
+.mr-deportessection div {
   width: 355px;
   display: flex;
   justify-content: center;
@@ -650,56 +650,56 @@ main {
 }
 
 /**/
-.platostipicos {
+.mr-platostipicos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.platostipicos-titulo {
+.mr-platostipicos-titulo {
   width: 30%;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
-.platostipicossection {
+.mr-platostipicossection {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.platostipicossection div {
+.mr-platostipicossection div {
   width: 25%;
   margin: 10px;
   text-align: center;
 }
-.platostipicossection div img {
+.mr-platostipicossection div img {
   height: 220px;
   width: 220px;
 }
 
 /*destinos*/
 
-.lugaresturisticostitle {
+.mr-lugaresturisticostitle {
   width: 50%;
 }
 
-.destinosportada {
+.mr-destinosportada {
   width: 100%;
 }
 
-.lugaresrutisticosdiv {
+.mr-lugaresrutisticosdiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.lugaresrutisticosdiv div img {
+.mr-lugaresrutisticosdiv div img {
   width: 700px;
   height: 500px;
 }
 
-.lugaresrutisticosdiv div div {
+.mr-lugaresrutisticosdiv div div {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -709,32 +709,32 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.lugaresrutisticosdiv div div p {
+.mr-lugaresrutisticosdiv div div p {
   width: 60%;
   color: #f1e9e9;
   font-weight: bold;
 }
 
-.lugaresrutisticosdiv div {
+.mr-lugaresrutisticosdiv div {
   display: flex;
   background-color: #03a696;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.seccionrutas {
+.mr-seccionrutas {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.seccionrutas div {
+.mr-seccionrutas div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.seccionrutas div div {
+.mr-seccionrutas div div {
   height: 400px;
   width: 400px;
   background-repeat: no-repeat;
@@ -746,7 +746,7 @@ main {
   margin-bottom: 30px;
 }
 
-.seccionrutas div div p {
+.mr-seccionrutas div div p {
   margin: 0;
   padding: 20px;
   background-color: #00000080;
@@ -758,32 +758,32 @@ main {
   text-align: center;
 }
 
-.rutas-careveli {
+.mr-rutas-careveli {
   background-image: url("../images/careveli.png");
 }
-.rutas-mollendo {
+.mr-rutas-mollendo {
   background-image: url("../images/islaymollendo.png");
 }
-.rutas-camana {
+.mr-rutas-camana {
   background-image: url("../images/camana.png");
 }
-.rutas-vallevolcanes {
+.mr-rutas-vallevolcanes {
   background-image: url("../images/andagua.png");
 }
-.rutas-reservanacional {
+.mr-rutas-reservanacional {
   background-image: url("../images/reservanacionalsalinas.png");
 }
-.rutas-vallemajes {
+.mr-rutas-vallemajes {
   background-image: url("../images/vallemajes.png");
 }
-.rutas-pobladossur {
+.mr-rutas-pobladossur {
   background-image: url("../images/pobladossur.png");
 }
-.rutas-vallecanon {
+.mr-rutas-vallecanon {
   background-image: url("../images/vallecanon.png");
 }
 
-.rutasdescatadastitle {
+.mr-rutasdescatadastitle {
   width: 55%;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -797,20 +797,20 @@ main {
   align-items: center;
 }
 
-.blogtitulo {
+.mr-blogtitulo {
   font-size: 50px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #3d3b3bc2;
 }
 
-.portada5 {
+.mr-portada5 {
   width: 100%;
   height: 700px;
   margin-bottom: 40px;
 }
 
-.notas {
+.mr-notas {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
@@ -818,13 +818,13 @@ main {
   align-items: center;
 }
 
-.notas h1 {
+.mr-notas h1 {
   font-size: 33px;
   padding: 10px;
   color: teal;
 }
 
-.notas p {
+.mr-notas p {
   text-align: start;
   width: 80%;
   padding: 10px;
@@ -832,12 +832,12 @@ main {
   color: #303030da;
 }
 
-.notas img {
+.mr-notas img {
   height: 450px;
   width: 750px;
 }
 
-.datos-blog {
+.mr-datos-blog {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -846,11 +846,11 @@ main {
   color: #2b2a2ac9;
 }
 
-.datos-blog li svg {
+.mr-datos-blog li svg {
   width: 18px;
 }
 
-.manantialmamacocha {
+.mr-manantialmamacocha {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -858,22 +858,22 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.manantialmamacocha h1 {
+.mr-manantialmamacocha h1 {
   font-size: 27px;
   color: #03a696;
 }
 
-.manantialmamacocha p {
+.mr-manantialmamacocha p {
   font-weight: 400;
   color: #303030da;
 }
 
-.manantialmamacocha img {
+.mr-manantialmamacocha img {
   height: 450px;
   width: 750px;
 }
 
-.cotahuasi {
+.mr-cotahuasi {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -882,38 +882,38 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.cotahuasi h1 {
+.mr-cotahuasi h1 {
   font-size: 27px;
   color: tomato;
 }
 
-.cotahuasi p {
+.mr-cotahuasi p {
   font-weight: 400;
   color: #303030da;
   width: 70%;
 }
 
-.cotahuasi div {
+.mr-cotahuasi div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.cotahuasi div img {
+.mr-cotahuasi div img {
   height: 450px;
   width: 750px;
 }
-.cotahuasi div h3 {
+.mr-cotahuasi div h3 {
   font-size: 23px;
   color: #025158;
 }
-.cotahuasi div p {
+.mr-cotahuasi div p {
   font-weight: 400;
   color: #303030da;
   width: 25%;
 }
 
-.castilloforga {
+.mr-castilloforga {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -922,31 +922,31 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.castilloforga h1 {
+.mr-castilloforga h1 {
   font-size: 26px;
 }
 
-.castilloforga p {
+.mr-castilloforga p {
   font-weight: 400;
   color: #303030da;
 }
 
-.castilloforga div {
+.mr-castilloforga div {
   display: flex;
 }
 
-.castilloforga div p {
+.mr-castilloforga div p {
   padding: 10px;
   font-weight: 500;
 }
 
-.castilloforga div div {
+.mr-castilloforga div div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.huasicac {
+.mr-huasicac {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -956,23 +956,23 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.huasicac img {
+.mr-huasicac img {
   height: 450px;
   width: 750px;
 }
 
-.huasicac p {
+.mr-huasicac p {
   font-weight: 500;
   color: #303030da;
 }
 
-.huasicac div {
+.mr-huasicac div {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-.huasicac div img {
+.mr-huasicac div img {
   height: 255px;
   width: 355px;
 }
