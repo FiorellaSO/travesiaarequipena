@@ -72,7 +72,7 @@ main {
 }
 
 .mr-lugares-turisticos {
-  background-image: url(./images/turistico.png);
+  background-image: url(../images/turistico.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
   height: 434px;
@@ -92,7 +92,7 @@ main {
   color: white;
 }
 .mr-platos-tipicos {
-  background-image: url(./images/plato.png);
+  background-image: url(../images/plato.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
   height: 434px;
@@ -114,7 +114,7 @@ main {
 }
 
 .mr-costumbres {
-  background-image: url(./images/costumbres.png);
+  background-image: url(../images/costumbres.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
   height: 434px;
