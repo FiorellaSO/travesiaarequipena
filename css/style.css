@@ -5,7 +5,12 @@ body {
   align-items: center;
   width: 100%;
 }
-
+.active{
+  background-color: #03a696;
+  color: #303030;
+  border-radius: 8px;
+  padding: 2px;
+}
 main {
   width: 1200px;
 }
