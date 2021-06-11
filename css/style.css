@@ -9,7 +9,7 @@ body {
 main {
   width: 1200px;
 }
-.mr-header {
+.es-header {
   display: flex;
   justify-content: space-around;
   padding-top: 23px;
@@ -17,15 +17,15 @@ main {
   width: 100%;
 }
 
-.mr-logo {
+.es-logo {
   height: 80px;
 }
 
-.mr-nav {
+.es-nav {
   width: 50%;
 }
 
-.mr-nav ul {
+.es-nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -37,31 +37,31 @@ main {
   color: #303030;
 }
 
-.mr-nav ul a {
+.es-nav ul a {
   text-decoration: none;
   color: #303030;
 }
-.mr-nav ul li:hover {
+.es-nav ul li:hover {
   color: #f25c27;
 }
 
-.mr-imagenportada {
+.es-imagenportada {
   height: 570px;
   width: 100%;
   margin-bottom: 2%;
 }
 
-.mr-descubrearequipa {
+.es-descubrearequipa {
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.mr-titulodescubre {
+.es-titulodescubre {
   width: 300px;
 }
 
-.mr-textodescubre {
+.es-textodescubre {
   width: 25%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -71,7 +71,7 @@ main {
   text-align: center;
 }
 
-.mr-lugares-turisticos {
+.es-lugares-turisticos {
   background-image: url(../images/turistico.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
@@ -83,15 +83,15 @@ main {
   font-size: 26px;
   text-align: center;
 }
-.mr-lugares-turisticos a {
+.es-lugares-turisticos a {
   color: #f25c27;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.mr-lugares-turisticos a:hover {
+.es-lugares-turisticos a:hover {
   color: white;
 }
-.mr-platos-tipicos {
+.es-platos-tipicos {
   background-image: url(../images/plato.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
@@ -104,16 +104,16 @@ main {
   text-align: center;
 }
 
-.mr-platos-tipicos a {
+.es-platos-tipicos a {
   color: #f25c27;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.mr-platos-tipicos a:hover {
+.es-platos-tipicos a:hover {
   color: white;
 }
 
-.mr-costumbres {
+.es-costumbres {
   background-image: url(../images/costumbres.png);
   background-size: 284px 434px;
   background-repeat: no-repeat;
@@ -126,23 +126,23 @@ main {
   text-align: center;
 }
 
-.mr-costumbres a {
+.es-costumbres a {
   color: #f25c27;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.mr-costumbres a h1 {
+.es-costumbres a h1 {
   opacity: 1;
 }
-.mr-costumbres a:hover {
+.es-costumbres a:hover {
   color: white;
 }
 
-.mr-separador {
+.es-separador {
   width: 800px;
 }
 
-.mr-viajaseguro {
+.es-viajaseguro {
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -151,12 +151,12 @@ main {
   width: 100%;
   margin-top: 4%;
 }
-.mr-div-viajaseguro {
+.es-div-viajaseguro {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-.mr-textoviajaseguro {
+.es-textoviajaseguro {
   text-align: center;
   width: 40%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -164,7 +164,7 @@ main {
   color: #303030;
   margin-bottom: 4%;
 }
-.mr-viajaseguro div section {
+.es-viajaseguro div section {
   background-color: #5c5c5c;
   width: 30%;
   margin: 10px;
@@ -181,12 +181,12 @@ main {
   font-size: 20px;
   margin-bottom: 50px;
 }
-.mr-precios {
+.es-precios {
   font-size: 100px;
   margin: 0;
 }
 
-.mr-botonesviajaseguro {
+.es-botonesviajaseguro {
   color: white;
   border: none;
   background-color: #f25c27;
@@ -200,11 +200,11 @@ main {
   text-decoration: none;
 }
 
-.mr-botonesviajaseguro:hover {
+.es-botonesviajaseguro:hover {
   cursor: pointer;
 }
 
-.mr-viajarnuncafuetanfacil {
+.es-viajarnuncafuetanfacil {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -213,11 +213,11 @@ main {
   margin-bottom: 5%;
 }
 
-.mr-viajarnuncafuetanfacilimg {
+.es-viajarnuncafuetanfacilimg {
   width: 60%;
 }
 
-.mr-viajarnuncafuetanfacil div a section {
+.es-viajarnuncafuetanfacil div a section {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -225,21 +225,21 @@ main {
   align-items: center;
   text-align: center;
 }
-.mr-viajarnuncafuetanfacil div a {
+.es-viajarnuncafuetanfacil div a {
   text-decoration: none;
   color: black;
   width: 30%;
   padding: 5px;
 }
-.mr-viajarnuncafuetanfacil div {
+.es-viajarnuncafuetanfacil div {
   display: flex;
   justify-content: space-around;
   margin: 30px;
 }
-.mr-booking {
+.es-booking {
   width: 165px;
 }
-.mr-viajarnuncafuetanfacil div a section p {
+.es-viajarnuncafuetanfacil div a section p {
   padding: 10px;
 }
 #ahorraconbooxing p {
@@ -250,10 +250,10 @@ main {
 #ahorraconbooxing {
   height: 100%;
 }
-.mr-viajanuncafuetanfacilimgs {
+.es-viajanuncafuetanfacilimgs {
   min-height: 300px;
 }
-.mr-ubicacion {
+.es-ubicacion {
   width: 75px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -271,7 +271,7 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
 }
-.mr-excursiones {
+.es-excursiones {
   width: 115px;
   margin-bottom: 10px;
   margin-top: 34px;
@@ -285,35 +285,35 @@ main {
   font-size: 15px;
 }
 
-.mr-titulohistoria {
+.es-titulohistoria {
   width: 70%;
 }
-.mr-historia {
+.es-historia {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 4%;
 }
-.mr-historia div section {
+.es-historia div section {
   width: 40%;
 }
-.mr-historia div {
+.es-historia div {
   display: flex;
   justify-content: center;
 }
-.mr-historia div section p {
+.es-historia div section p {
   padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 17px;
 }
-.mr-historia div section img {
+.es-historia div section img {
   height: 400px;
   width: 400px;
   padding: 10px;
 }
-.mr-botonhistoria {
+.es-botonhistoria {
   color: white;
   border: none;
   background-color: #f25c27;
@@ -327,29 +327,29 @@ main {
   margin-top: 4%;
 }
 
-.mr-mapa {
+.es-mapa {
   display: flex;
   flex-direction: column;
 
   align-items: center;
 }
 
-.mr-mapaimg {
+.es-mapaimg {
   width: 18%;
   margin-top: 3%;
 }
-.mr-iframemapa {
+.es-iframemapa {
   border: 0;
   height: 450px;
   width: 100%;
 }
-.mr-lima-arequipa {
+.es-lima-arequipa {
   height: 70px;
   width: 800px;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.mr-footer {
+.es-footer {
   width: 100%;
   background-color: #025158;
   display: flex;
@@ -362,54 +362,54 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-footer div {
+.es-footer div {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.mr-imgs {
+.es-imgs {
   height: 28px;
   width: 119px;
   margin-top: 10px;
 }
 
-.mr-footer div p {
+.es-footer div p {
   margin-top: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
 }
 
-.mr-footer1 {
+.es-footer1 {
   width: 180px;
   margin-top: 8%;
 }
-.mr-footer2 {
+.es-footer2 {
   width: 120px;
   margin-top: 8%;
 }
-.mr-footer3 {
+.es-footer3 {
   width: 140px;
 }
-.mr-footer div h1 {
+.es-footer div h1 {
   font-size: 22px;
 }
-.mr-redessociales {
+.es-redessociales {
   display: flex;
   flex-direction: column;
 }
 
-.mr-redessociales i {
+.es-redessociales i {
   font-size: 22px;
   display: flex;
   padding: 4px;
   margin-top: 5px;
 }
-.mr-redessociales img {
+.es-redessociales img {
   margin-bottom: 16px;
 }
-.mr-travesia-img {
+.es-travesia-img {
   height: 23px;
   width: 180px;
   margin-top: 5px;
@@ -417,7 +417,7 @@ main {
 }
 
 /*nosotros*/
-.mr-nosotrostitle {
+.es-nosotrostitle {
   font-size: 38px;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -427,12 +427,12 @@ main {
   margin-bottom: 50px;
   color: #5c5c5c;
 }
-.mr-imagenportada2 {
+.es-imagenportada2 {
   width: 100%;
   margin-bottom: 50px;
 }
 
-.mr-costumbre {
+.es-costumbre {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -441,47 +441,47 @@ main {
   margin-top: 40px;
 }
 
-.mr-titulocostumbres {
+.es-titulocostumbres {
   width: 60%;
 }
 
-.mr-costumbre div {
+.es-costumbre div {
   display: flex;
   justify-content: center;
   width: 77%;
 }
-.mr-costumbre div div {
+.es-costumbre div div {
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 55%;
   padding: 25px;
 }
-.mr-costumbre div div h1 {
+.es-costumbre div div h1 {
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: xx-large;
   color: #5c5c5c;
 }
-.mr-costumbre div div p {
+.es-costumbre div div p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-stretch: wider;
 }
 
-.mr-bg-red {
+.es-bg-red {
   background-color: rgb(236, 100, 100);
 }
-.mr-costumbre div img {
+.es-costumbre div img {
   height: 390px;
   width: 400px;
 }
-.mr-bg-light-blue {
+.es-bg-light-blue {
   background-color: rgb(240, 217, 154);
 }
 
-.mr-seccioncomunidad {
+.es-seccioncomunidad {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -494,29 +494,29 @@ main {
   margin-bottom: 40px;
 }
 
-.mr-titulocomunidad {
+.es-titulocomunidad {
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.mr-all {
+.es-all {
   display: flex;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.mr-all img {
+.es-all img {
   width: 25%;
 }
 
-.mr-seccionmision {
+.es-seccionmision {
   display: flex;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.mr-seccionmision div {
+.es-seccionmision div {
   width: 38%;
   text-align: center;
   padding: 10px;
@@ -526,36 +526,36 @@ main {
 }
 
 /*experiencias*/
-.mr-portada4 {
+.es-portada4 {
   width: 100%;
 }
 
-.mr-mejoresfestividades {
+.es-mejoresfestividades {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.mr-experienciastitulo {
+.es-experienciastitulo {
   font-weight: bold;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-festividadescontainer {
+.es-festividadescontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.mr-festividadescontainer div img {
+.es-festividadescontainer div img {
   height: 460px;
   width: 460px;
 }
 
-.mr-festividadescontainer div {
+.es-festividadescontainer div {
   width: 40%;
   padding: 20px;
   text-align: center;
@@ -565,41 +565,41 @@ main {
   align-items: center;
 }
 
-.mr-festividadescontainer div p {
+.es-festividadescontainer div p {
   width: 60%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-deportesextremostitulo {
+.es-deportesextremostitulo {
   width: 60%;
 }
 
-.mr-rafting {
+.es-rafting {
   background-image: url("../images/rafting.png");
   background-repeat: no-repeat;
   background-size: 283px 240px;
 }
 
-.mr-puenting {
+.es-puenting {
   background-image: url("../images/puenting.png");
   background-repeat: no-repeat;
   background-size: 283px 240px;
 }
 
-.mr-parapente {
+.es-parapente {
   background-image: url("../images/parapente.png");
   background-repeat: no-repeat;
   background-size: 283px 240px;
 }
 
-.mr-downhill {
+.es-downhill {
   background-image: url("../images/downhilll.png");
   background-repeat: no-repeat;
   background-size: 283px 240px;
 }
 
-.mr-deportessection div h1 {
+.es-deportessection div h1 {
   height: 240px;
   width: 283px;
   display: flex;
@@ -612,34 +612,34 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-deportessection div p {
+.es-deportessection div p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-bg-1 {
+.es-bg-1 {
   background-color: #83bdae;
 }
 
-.mr-bg-2 {
+.es-bg-2 {
   background-color: #e7de8b;
 }
 
-.mr-deportes {
+.es-deportes {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.mr-deportessection {
+.es-deportessection {
   width: 75%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.mr-deportessection div {
+.es-deportessection div {
   width: 355px;
   display: flex;
   justify-content: center;
@@ -650,56 +650,56 @@ main {
 }
 
 /**/
-.mr-platostipicos {
+.es-platostipicos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.mr-platostipicos-titulo {
+.es-platostipicos-titulo {
   width: 30%;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
-.mr-platostipicossection {
+.es-platostipicossection {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.mr-platostipicossection div {
+.es-platostipicossection div {
   width: 25%;
   margin: 10px;
   text-align: center;
 }
-.mr-platostipicossection div img {
+.es-platostipicossection div img {
   height: 220px;
   width: 220px;
 }
 
 /*destinos*/
 
-.mr-lugaresturisticostitle {
+.es-lugaresturisticostitle {
   width: 50%;
 }
 
-.mr-destinosportada {
+.es-destinosportada {
   width: 100%;
 }
 
-.mr-lugaresrutisticosdiv {
+.es-lugaresrutisticosdiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.mr-lugaresrutisticosdiv div img {
+.es-lugaresrutisticosdiv div img {
   width: 700px;
   height: 500px;
 }
 
-.mr-lugaresrutisticosdiv div div {
+.es-lugaresrutisticosdiv div div {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -709,32 +709,32 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-lugaresrutisticosdiv div div p {
+.es-lugaresrutisticosdiv div div p {
   width: 60%;
   color: #f1e9e9;
   font-weight: bold;
 }
 
-.mr-lugaresrutisticosdiv div {
+.es-lugaresrutisticosdiv div {
   display: flex;
   background-color: #03a696;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.mr-seccionrutas {
+.es-seccionrutas {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.mr-seccionrutas div {
+.es-seccionrutas div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.mr-seccionrutas div div {
+.es-seccionrutas div div {
   height: 400px;
   width: 400px;
   background-repeat: no-repeat;
@@ -746,7 +746,7 @@ main {
   margin-bottom: 30px;
 }
 
-.mr-seccionrutas div div p {
+.es-seccionrutas div div p {
   margin: 0;
   padding: 20px;
   background-color: #00000080;
@@ -758,32 +758,32 @@ main {
   text-align: center;
 }
 
-.mr-rutas-careveli {
+.es-rutas-careveli {
   background-image: url("../images/careveli.png");
 }
-.mr-rutas-mollendo {
+.es-rutas-mollendo {
   background-image: url("../images/islaymollendo.png");
 }
-.mr-rutas-camana {
+.es-rutas-camana {
   background-image: url("../images/camana.png");
 }
-.mr-rutas-vallevolcanes {
+.es-rutas-vallevolcanes {
   background-image: url("../images/andagua.png");
 }
-.mr-rutas-reservanacional {
+.es-rutas-reservanacional {
   background-image: url("../images/reservanacionalsalinas.png");
 }
-.mr-rutas-vallemajes {
+.es-rutas-vallemajes {
   background-image: url("../images/vallemajes.png");
 }
-.mr-rutas-pobladossur {
+.es-rutas-pobladossur {
   background-image: url("../images/pobladossur.png");
 }
-.mr-rutas-vallecanon {
+.es-rutas-vallecanon {
   background-image: url("../images/vallecanon.png");
 }
 
-.mr-rutasdescatadastitle {
+.es-rutasdescatadastitle {
   width: 55%;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -797,20 +797,20 @@ main {
   align-items: center;
 }
 
-.mr-blogtitulo {
+.es-blogtitulo {
   font-size: 50px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #3d3b3bc2;
 }
 
-.mr-portada5 {
+.es-portada5 {
   width: 100%;
   height: 700px;
   margin-bottom: 40px;
 }
 
-.mr-notas {
+.es-notas {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
@@ -818,13 +818,13 @@ main {
   align-items: center;
 }
 
-.mr-notas h1 {
+.es-notas h1 {
   font-size: 33px;
   padding: 10px;
   color: teal;
 }
 
-.mr-notas p {
+.es-notas p {
   text-align: start;
   width: 80%;
   padding: 10px;
@@ -832,12 +832,12 @@ main {
   color: #303030da;
 }
 
-.mr-notas img {
+.es-notas img {
   height: 450px;
   width: 750px;
 }
 
-.mr-datos-blog {
+.es-datos-blog {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -846,11 +846,11 @@ main {
   color: #2b2a2ac9;
 }
 
-.mr-datos-blog li svg {
+.es-datos-blog li svg {
   width: 18px;
 }
 
-.mr-manantialmamacocha {
+.es-manantialmamacocha {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -858,22 +858,22 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-manantialmamacocha h1 {
+.es-manantialmamacocha h1 {
   font-size: 27px;
   color: #03a696;
 }
 
-.mr-manantialmamacocha p {
+.es-manantialmamacocha p {
   font-weight: 400;
   color: #303030da;
 }
 
-.mr-manantialmamacocha img {
+.es-manantialmamacocha img {
   height: 450px;
   width: 750px;
 }
 
-.mr-cotahuasi {
+.es-cotahuasi {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -882,38 +882,38 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-cotahuasi h1 {
+.es-cotahuasi h1 {
   font-size: 27px;
   color: tomato;
 }
 
-.mr-cotahuasi p {
+.es-cotahuasi p {
   font-weight: 400;
   color: #303030da;
   width: 70%;
 }
 
-.mr-cotahuasi div {
+.es-cotahuasi div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.mr-cotahuasi div img {
+.es-cotahuasi div img {
   height: 450px;
   width: 750px;
 }
-.mr-cotahuasi div h3 {
+.es-cotahuasi div h3 {
   font-size: 23px;
   color: #025158;
 }
-.mr-cotahuasi div p {
+.es-cotahuasi div p {
   font-weight: 400;
   color: #303030da;
   width: 25%;
 }
 
-.mr-castilloforga {
+.es-castilloforga {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -922,31 +922,31 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-castilloforga h1 {
+.es-castilloforga h1 {
   font-size: 26px;
 }
 
-.mr-castilloforga p {
+.es-castilloforga p {
   font-weight: 400;
   color: #303030da;
 }
 
-.mr-castilloforga div {
+.es-castilloforga div {
   display: flex;
 }
 
-.mr-castilloforga div p {
+.es-castilloforga div p {
   padding: 10px;
   font-weight: 500;
 }
 
-.mr-castilloforga div div {
+.es-castilloforga div div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.mr-huasicac {
+.es-huasicac {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -956,23 +956,68 @@ main {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.mr-huasicac img {
+.es-huasicac img {
   height: 450px;
   width: 750px;
 }
 
-.mr-huasicac p {
+.es-huasicac p {
   font-weight: 500;
   color: #303030da;
 }
 
-.mr-huasicac div {
+.es-huasicac div {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-.mr-huasicac div img {
+.es-huasicac div img {
   height: 255px;
   width: 355px;
+}
+
+/*contacto*/
+.es-titlecontacto {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.es-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #03a696;
+  width: 500px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.es-form-input {
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+}
+.es-form-btn {
+  margin: 20px;
+  background-color: #f25c27;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+.es-form-label {
+  width: 200px;
+  padding: 2px;
+  font-size: 13px;
+  color: rgb(211, 199, 199);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.es-form-textarea{
+  margin: 10px;
 }
