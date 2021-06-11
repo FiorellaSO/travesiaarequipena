@@ -1018,6 +1018,17 @@ main {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.es-form-textarea{
+.es-form-textarea {
   margin: 10px;
+}
+
+.es-form-btn:hover {
+  background-color: white;
+  color: #303030;
+  cursor: pointer;
+  transition: 500ms;
+}
+.es-form-input:focus,
+.es-form-textarea:focus {
+  outline: none;
 }
